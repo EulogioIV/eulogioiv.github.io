@@ -23,6 +23,12 @@
         font-family: "Raleway", sans-serif
     }
 
+    body {
+        background-image: url("images/Jeepney.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
     .col-4 {
         padding-left: 0px !important;
         padding-right: 0px !important;
@@ -32,7 +38,7 @@
     }
 
     img {
-        opacity: 0.8;
+        opacity: 0.75;
         cursor: pointer;
     }
 
@@ -76,7 +82,7 @@
             class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
 
         <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
-        <a href="#my-portfolio" onclick="w3_close()" class="w3-bar-item w3-button">MY PORTFOLIO</a>
+        <a href="#works" onclick="w3_close()" class="w3-bar-item w3-button">WORKS</a>
         <a href="#contacts" onclick="w3_close()" class="w3-bar-item w3-button">CONTACTS</a>
     </nav>
 
@@ -91,7 +97,7 @@
         title="close side menu" id="myOverlay"></div>
 
     <!-- !PAGE CONTENT! -->
-    <div class="w3-main" style="margin-left:300px">
+    <div class="w3-main w3-white" style="margin-left:300px">
 
         <!-- Push down content on small screens -->
         <div class="w3-hide-large" style="margin-top:83px"></div>
@@ -102,13 +108,14 @@
         <!-- About section -->
         <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
             <h4><b>About Me</b></h4>
-            <img src="/w3images/avatar_hat.jpg" alt="image here" class="w3-image w3-padding-32" width="600"
-                height="650">
+            <img src="images/Me.jpg" alt="image here" class="w3-image w3-padding-32" style="max-width: 600px; max-height: 650px;">
             <div class="w3-content w3-justify" style="max-width:600px; padding-bottom: 25px;">
                 <!--<h4 class="name">Eulogio M. Nieves IV</h4>-->
-                <p>Hi! I'm Eulogio Nieves IV. I'm living in Malolos, Bulacan, Philippines. I graduated in Bulacan State
-                    University with a degree of Bachelor of Science in Information Technology.
-                    <br> <br>I love making pixel arts and developing video games. I am a starter and interested to gain
+                <p>
+                    Hi! I'm Eulogio Nieves IV. I lived in Malolos, Bulacan, Philippines. I graduated in Bulacan State
+                    University since July of 2022 with a degree of Bachelor of Science in Information Technology.
+                    <br> <br>
+                    I love making pixel arts and developing video games. I am a starter and interested to gain
                     knowledge and experience, and expecting the possibilities that challenge me at work.
                 </p>
                 <!--
@@ -133,7 +140,7 @@
                 <div class="w3-white">
                     <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
                 </div>
-                <p class="w3-wide">Front-End Web Development (HTML CSS)</p>
+                <p class="w3-wide">Front-End Web Development (HTML, CSS)</p>
                 <div class="w3-white">
                     <div class="w3-container w3-padding-small w3-center w3-grey" style="width:60%">60%</div>
                 </div>
@@ -187,8 +194,8 @@
         </div>
 
         <!-- Portfolio -->
-        <div class="w3-container w3-center w3-padding-32" id="my-portfolio">
-            <h4 style="color:gray;"><b>MY PORTFOLIO</b></h4>
+        <div class="w3-container w3-center w3-padding-32" id="works">
+            <h4 style="color:gray;"><b>WORKS</b></h4>
         </div>
 
         <!-- Photo grid -->
